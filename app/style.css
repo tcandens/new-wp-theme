@@ -1,0 +1,49 @@
+/*!
+	Theme Name: new_theme
+	Author: Joey Thies
+	Version: 1.0
+	Author URI: http://www.joeythies.com
+	Theme URI: http://www.joeythies.com/new_theme
+	Tags: 
+	Description: test
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  max-width: 100%;
+  font: 1.4em/1.7 'Times New Roman', serif;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: coral;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background: url("img/logo-lig-blk.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.logo:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 38em;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "new_theme",
+  "version": "0.0.0",
+  "authors": [
+    "tcandens <joey.thies@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bourbon": "~4.0.2",
+    "neat": "~1.6.0"
+  }
+}
