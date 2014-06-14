@@ -3,13 +3,14 @@ html {
 }
 body {
 	max-width: 100%;
-	font: 1.4em/1.7 'Times New Roman', serif;
+	font: 1.5em/1.5 'quicksandregular', sans-serif;
 	margin: 0;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	background: coral;
 }
 .logo {
+	margin: 1em;
 	width: 100px;
 	height: 100px;
 	background: url('img/logo-lig-blk.svg');
@@ -20,5 +21,13 @@ body {
 .content {
 	margin: 0 auto;
 	max-width: 38em;
+}
+
+div[class^="post"] {
+	p {
+		color: pink;
+		font-family: serif;
+	}
+	margin-bottom: 4em;
 }
 
