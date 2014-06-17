@@ -1,14 +1,19 @@
+$bg_color: #c94;
+$h1_color: #4cc;
+$p_color: #fcf;
+
 html {
 	font-size: 100%;
 }
 body {
 	max-width: 100%;
-	font: 1.5em/1.5 'quicksandregular', sans-serif;
+	font: 1.5em/1.5 'Alegreya', serif;
 	margin: 0;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	background: coral;
+	background: $bg_color;
 }
+// Logo styles
 .logo {
 	margin: 1em;
 	width: 100px;
@@ -20,14 +25,22 @@ body {
 }
 .content {
 	margin: 0 auto;
+	padding: 0.4em;
 	max-width: 38em;
 }
-
 div[class^="post"] {
+	// Inside content post Paragraph styles
 	p {
-		color: pink;
+		color: $p_color;
 		font-family: serif;
 	}
 	margin-bottom: 4em;
 }
+h1 {
+	color: $h1_color;
+	font-family: 'quicksandbold';
+}
 
+.circle {
+	border-radius: 50%;
+}

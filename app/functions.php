@@ -16,4 +16,18 @@ function custom_mtypes( $m ){
 }
 add_filter( 'upload_mimes', 'custom_mtypes' );
 
+// Menu
+function register_my_menu() {
+	register_nav_menu('navigation-menu', __( 'Navigation Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
+
+// Featured Images - Post Thumbnails
+add_theme_support( 'post-thumbnails' );
+
+// New Image Size
+if ( function_exists( 'add_image_size' ) ) {
+	add_image_size( 'featured', 400, 400, false);
+}
+
 ?>
