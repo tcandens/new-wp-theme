@@ -61,7 +61,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-notify');
 
 	// Run Development Watcher
-	grunt.registerTask('dev', [
+	grunt.registerTask('build', [
 		'sass:dev',
 		'copy:dev',
 		'notify:dev'
