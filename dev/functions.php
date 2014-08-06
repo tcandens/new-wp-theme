@@ -27,7 +27,7 @@ add_theme_support( 'post-thumbnails' );
 
 // New Image Size
 if ( function_exists( 'add_image_size' ) ) {
-	add_image_size( 'circle', 400, 400, false);
+	add_image_size( 'featured', 400, 400, false);
 }
 
 ?>
